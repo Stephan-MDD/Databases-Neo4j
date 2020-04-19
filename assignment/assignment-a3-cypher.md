@@ -177,7 +177,7 @@ _response_
 
 _cypher_
 ```sql
-MATCH(tomHanks:Person {name: "Tom Hanks"})-[r:RESEARCH]->(garySinise:Person {name: "Gary Sinise"}) 
+MATCH(tomHanks:Person {name: "Tom Hanks"})-[r]->(garySinise:Person {name: "Gary Sinise"}) 
 DELETE r
 RETURN tomHanks, garySinise;
 ```
