@@ -1,11 +1,11 @@
 # Assignment A3 | Cypher
 
-By **Stephan Djurhuus**
-Institute **CPHBusiness**
+By **Stephan Djurhuus**  
+Institute **CPHBusiness**  
 
-Education **Software Development**
-Elective **Databases**
-Topic **Graph Databases**
+Education **Software Development**  
+Elective **Databases**  
+Topic **Graph Databases**  
 
 **1. Create a Movie node for the movie with a title Forrest Gump.**
 
