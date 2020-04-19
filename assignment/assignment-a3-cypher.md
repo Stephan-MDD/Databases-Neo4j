@@ -1,13 +1,13 @@
 # Assignment A3 | Cypher
 
-By **Stephan Djurhuus**  
+By **Daniel, Jacob, Nikolai & Stephan**  
 Institute **CPHBusiness**  
 
 Education **Software Development**  
 Elective **Databases**  
 Topic **Graph Databases**  
 
-**1. Create a Movie node for the movie with a title Forrest Gump.**
+#### 1. Create a Movie node for the movie with a title Forrest Gump.
 
 _cypher_
 ```sql
@@ -21,7 +21,7 @@ _response_
 }
 ```
 
-**2. Add the following properties to the movie Forrest Gump:**
+#### 2. Add the following properties to the movie Forrest Gump:
 * released: 1995
 * tagline: "Life is like a box of chocolates…​you never know what you’re gonna get."
 
@@ -41,7 +41,7 @@ _response_
 }
 ```
 
-**3. Update the released property of movie Forrest Gump, as it has actually been released in 1994.**
+#### 3. Update the released property of movie Forrest Gump, as it has actually been released in 1994.
 
 _cypher_
 ```sql
@@ -59,7 +59,7 @@ _response_
 }
 ```
 
-**4. Find the movie with the tagline Free your mind.**
+#### 4. Find the movie with the tagline Free your mind.
 
 _cypher_
 ```sql
@@ -76,7 +76,7 @@ _response_
 }
 ```
 
-**5. Retrieve the movie The Matrix and all its relationships.**
+#### 5. Retrieve the movie The Matrix and all its relationships.
 
 _cypher_
 ```sql
@@ -87,7 +87,7 @@ RETURN m, r, n;
 _response_  
 ![response 5](assets/response5.png)
 
-**6. Find the names and relationship type of all people who have any type of relationship to the movie The Matrix.**
+#### 6. Find the names and relationship type of all people who have any type of relationship to the movie The Matrix.
 
 _cypher_
 ```sql
@@ -98,7 +98,7 @@ RETURN m, r, p;
 _response_  
 ![response 6](assets/response6.png)
 
-**7. Find all people born in the previous century.**
+#### 7. Find all people born in the previous century.
 
 _cypher_
 ```sql
@@ -110,7 +110,7 @@ RETURN p;
 _response_  
 ![response 7](assets/response7.png)
 
-**8. Find all people who gave the movie The Da Vinci Code a rating of 65, returning their names.**
+#### 8. Find all people who gave the movie The Da Vinci Code a rating of 65, returning their names.
 
 _cypher_
 ```sql
@@ -124,7 +124,7 @@ _response_
 "James Thompson"
 ```
 
-**9. Find all people who follow Angela Scope and those who Angela Scope follows.**
+#### 9. Find all people who follow Angela Scope and those who Angela Scope follows.
 
 _cypher_
 ```sql
@@ -138,7 +138,7 @@ _response_
 "name": "Paul Blythe"
 ```
 
-**10. Find all people who follow anybody who follows Jessica Thompson returning them as nodes.**
+#### 10. Find all people who follow anybody who follows Jessica Thompson returning them as nodes.
 
 _cypher_
 ```sql
@@ -151,7 +151,7 @@ _response_
 "name": "Paul Blythe"
 ```
 
-**11. Tom Hanks hasn’t HELPED Gary Sinise in a research. Remove this property from the relation.**
+#### 11. Tom Hanks hasn’t HELPED Gary Sinise in a research. Remove this property from the relation.
 
 Cant find the HELPED in any research, so instead of removing it, I will make it so I can remove it afterwords.
 
@@ -173,7 +173,7 @@ RETURN tomHanks, garySinise;
 _response_  
 ![response 11](assets/response11.png)
 
-**12. Delete the whole person-to-person relationship HELPED from the graph.**
+#### 12. Delete the whole person-to-person relationship HELPED from the graph.
 
 _cypher_
 ```sql
