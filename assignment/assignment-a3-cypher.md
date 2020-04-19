@@ -84,7 +84,7 @@ MATCH(m:Movie { title:"The Matrix" })-[r]-(n)
 RETURN m, r, n;
 ```
 
-_response_
+_response_  
 ![response 5](assets/response5.png)
 
 **6. Find the names and relationship type of all people who have any type of relationship to the movie The Matrix.**
@@ -95,7 +95,7 @@ MATCH(m:Movie { title:"The Matrix" })-[r]-(p:Person)
 RETURN m, r, p;
 ```
 
-_response_
+_response_  
 ![response 6](assets/response6.png)
 
 **7. Find all people born in the previous century.**
@@ -107,7 +107,7 @@ WHERE p.born < 2000 AND p.born >=1900
 RETURN p;
 ```
 
-_response_
+_response_  
 ![response 7](assets/response7.png)
 
 **8. Find all people who gave the movie The Da Vinci Code a rating of 65, returning their names.**
@@ -170,7 +170,7 @@ REMOVE r.HELPED
 RETURN tomHanks, garySinise;
 ```
 
-_response_
+_response_  
 ![response 11](assets/response11.png)
 
 **12. Delete the whole person-to-person relationship HELPED from the graph.**
@@ -182,5 +182,5 @@ DELETE r
 RETURN tomHanks, garySinise;
 ```
 
-_response_
+_response_  
 ![response 12](assets/response12.png)
