@@ -1,6 +1,6 @@
 # Assignment A3 | Cypher
 
-By **Daniel, Jacob, Nikolai & Stephan**  
+By **Daniel, Jacob, Nikolaj & Stephan**  
 Institute **CPHBusiness**  
 
 Education **Software Development**  
